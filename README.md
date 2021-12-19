@@ -27,8 +27,12 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 https://github.com/Code-Pop/Real-World_Vue-3
 
 
+
 ## Tools 
 https://my-json-server.typicode.com/
 https://github.com/tklee1975/real-world-vue/blob/master/db.json
 
-https://my-json-server.typicode.com/
+https://my-json-server.typicode.com/tklee1975/real-world-vue/events    
+
+## other reference
+https://www.better.dev/asynchronous-javascript-using-async-await
