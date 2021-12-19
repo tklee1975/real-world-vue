@@ -22,3 +22,10 @@ yarn lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## Lesson Git 
+https://github.com/Code-Pop/Real-World_Vue-3
+
+
+## Tools 
+https://my-json-server.typicode.com/
