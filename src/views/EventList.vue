@@ -11,7 +11,9 @@
 // @ is an alias to /src
 
 import EventCard from "@/components/EventCard.vue";
-import axios from 'axios'
+import EventService from '@/services/EventService.js'
+
+// import axios from 'axios'
 
 //import { mockEvents } from "@/js/mock_data.js";
 
@@ -32,14 +34,13 @@ export default {
   },
   methods: {
     loadEvents() {
-      const api = 'https://my-json-server.typicode.com/Code-Pop/Real-World_Vue-3/events';
-      axios.get(api)
-      .then(response => {
-        this.events = response.data
-      })
-      .catch(error => {
-        console.log(error)
-      })
+      EventService.getEvents()
+        .then(response => {
+          this.events = response.data;
+        })
+        .catch(error => {
+          console.log(error);
+        });
     }
   },
 };
